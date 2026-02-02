@@ -6783,7 +6783,7 @@ body.megamenu-popup-active .mobile-nav__content {
   line-height: 1.2em;
 }
 .gallery-one__filter__list li.active span, .gallery-one__filter__list li:hover span {
-  background-color: var(--bultax-base, #FF5A1E);
+  background-color: var(--bultax-base, #052d51);
   color: var(--bultax-white, #fff);
 }
 .gallery-one__card {
@@ -6805,7 +6805,7 @@ body.megamenu-popup-active .mobile-nav__content {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(var(--bultax-base-rgb, 255, 90, 30), 90%);
+  background-color: #052d51;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6817,13 +6817,14 @@ body.megamenu-popup-active .mobile-nav__content {
   position: relative;
   width: 72px;
   height: 72px;
+   gap: 20px;
   background-color: var(--bultax-white, #fff);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 29px;
-  color: var(--bultax-base, #FF5A1E);
+  color: var(--bultax-base, #052d51);
   transition: all 400ms ease;
 }
 .gallery-one__card__hover .img-popup i {
